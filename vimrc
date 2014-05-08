@@ -72,6 +72,9 @@ let g:Powerline_symbols = 'fancy'
 " vim-markdown
 let g:vim_markdown_folding_disabled=1
 
+" vim-latex
+let g:tex_flavor='latex'
+
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
   let g:ackprg = 'ag --nogroup --column'
